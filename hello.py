@@ -198,7 +198,7 @@ def main():
     """ Set up the game and run the main game loop """
     pygame.init()      # Prepare the pygame module for use
     surface_sz = 480   # Desired physical surface size, in pixels.
-    car_list = load_carlist_from_file("C:\\Users\\whkel\\Desktop\\car.txt")
+    car_list = load_carlist_from_file("car.txt")
     game1 = game(car_list[0])
 
     my_font = pygame.font.SysFont("Courier", 50)
